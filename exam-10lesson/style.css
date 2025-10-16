@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 1273px;
+  height: 70px;
+  background: #272c3d;
+  padding: 21px 20px;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 280px;
+}
+
+.a {
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.a:hover {
+  color: #ff9c28;
+  transition: 0.3s;
+}
+
+input {
+  width: 241.8699951171875px;
+  height: 30px;
+  border-radius: 5px;
+  background: #404864;
+  border: none;
+  margin-left: 80px;
+}
+
+select {
+  width: 165.49000549316406px;
+  height: 30px;
+  background-color: #000000;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.option {
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+.first_section {
+  width: 1273px;
+  height: 554px;
+  background-image: url(./img/csgo_img.png);
+}
+
+.second_section {
+  height: 554px;
+  padding-right: 50px;
+}
+
+.h1_updates {
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.h1_updates:hover {
+  transform: scale(1.1);
+}
+
+.imgs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 170px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.h1_champ {
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.p {
+  width: 323px;
+  height: 234px;
+  font-family: Quantico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #bfbfbf;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.third_section {
+  width: 1273px;
+  height: 928px;
+  background-color: #1b1e27;
+  margin-left: 0px;
+  padding-left: 240px;
+  padding-top: 140px;
+}
+
+footer {
+  width: 1273px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #272c3d;
+  padding: 20px 21px;
+}
